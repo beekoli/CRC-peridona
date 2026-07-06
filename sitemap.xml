@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://crcgroup.propertysaraansh.com/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://crcgroup.propertysaraansh.com/images/CRC-Wbanner.webp</image:loc>
+      <image:title>CRC The Peridona – Ultra Luxury Golf Residences, Jaypee Greens Greater Noida</image:title>
+      <image:caption>CRC The Peridona — 341 exclusive luxury residences with panoramic golf course views</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Thank You page -->
+  <url>
+    <loc>https://crcgroup.propertysaraansh.com/thankyou.html</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://crcgroup.propertysaraansh.com/privacy.html</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

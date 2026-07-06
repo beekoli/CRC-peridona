@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Property Saraansh | CRC The Peridona</title>
+  <meta name="description" content="Privacy Policy for Property Saraansh – CRC The Peridona landing page. Learn how we collect, use, and protect your personal information." />
+  <link rel="canonical" href="https://crcgroup.propertysaraansh.com/privacy.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue:      #1B5EC0;
+      --blue-dark: #0E3A8A;
+      --green:     #3A8540;
+      --text:      #1a2336;
+      --muted:     #5a6478;
+      --border:    #e0e8f4;
+      --bg:        #f7f9fd;
+      --font-head: 'Cormorant Garamond', Georgia, serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.75;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 100%);
+      padding: 0 24px;
+    }
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+    .logo {
+      font-family: var(--font-head);
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+    }
+    .logo span { color: #6EC6FF; }
+    .back-link {
+      color: rgba(255,255,255,0.75);
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: #fff; }
+
+    /* ── Hero strip ── */
+    .page-hero {
+      background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 100%);
+      padding: 48px 24px 56px;
+      text-align: center;
+      color: #fff;
+    }
+    .page-hero h1 {
+      font-family: var(--font-head);
+      font-size: clamp(28px, 5vw, 44px);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .page-hero p {
+      font-size: 14px;
+      color: rgba(255,255,255,0.65);
+    }
+
+    /* ── Main layout ── */
+    main {
+      max-width: 860px;
+      margin: -24px auto 60px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 28px rgba(14,58,138,0.08);
+      padding: 52px 60px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ── Last updated badge ── */
+    .updated {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #EEF4FF;
+      color: var(--blue);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-bottom: 32px;
+      border: 1px solid rgba(27,94,192,0.15);
+    }
+
+    /* ── Sections ── */
+    .section {
+      margin-bottom: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid var(--border);
+    }
+    .section:last-of-type { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+    .section-num {
+      display: inline-block;
+      width: 28px; height: 28px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--blue-dark), var(--blue));
+      color: #fff; font-size: 12px; font-weight: 700;
+      text-align: center; line-height: 28px;
+      margin-right: 10px; flex-shrink: 0;
+      vertical-align: middle;
+    }
+
+    h2 {
+      font-family: var(--font-head);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--blue-dark);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 0;
+    }
+
+    p { font-size: 14px; color: #3a4355; margin-bottom: 14px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+      margin-bottom: 14px;
+    }
+    ul li {
+      font-size: 14px;
+      color: #3a4355;
+      padding: 6px 0 6px 26px;
+      position: relative;
+      border-bottom: 1px solid #f2f5fb;
+    }
+    ul li:last-child { border-bottom: none; }
+    ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--blue);
+      font-weight: 700;
+    }
+
+    /* ── Highlight box ── */
+    .highlight-box {
+      background: linear-gradient(135deg, #EEF4FF, #E3EDFF);
+      border-left: 4px solid var(--blue);
+      border-radius: 0 10px 10px 0;
+      padding: 18px 22px;
+      margin: 20px 0;
+    }
+    .highlight-box p { color: var(--blue-dark); font-weight: 500; margin: 0; }
+
+    /* ── Contact card ── */
+    .contact-card {
+      background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 100%);
+      border-radius: 12px;
+      padding: 28px 32px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .contact-card h3 {
+      font-family: var(--font-head);
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .contact-card p { font-size: 13px; color: rgba(255,255,255,0.75); margin: 0; }
+    .contact-card a.email-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    .contact-card a.email-btn:hover { background: rgba(255,255,255,0.25); }
+
+    /* ── Footer ── */
+    footer {
+      background: var(--blue-dark);
+      color: rgba(255,255,255,0.5);
+      text-align: center;
+      padding: 24px;
+      font-size: 12px;
+    }
+    footer a { color: rgba(255,255,255,0.65); text-decoration: none; }
+    footer a:hover { color: #fff; }
+
+    @media (max-width: 680px) {
+      main { padding: 32px 22px; margin: -16px 12px 40px; border-radius: 12px; }
+      .contact-card { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="/" class="logo">Property <span>Saraansh</span></a>
+    <a href="/" class="back-link">← Back to CRC The Peridona</a>
+  </div>
+</header>
+
+<div class="page-hero">
+  <h1>Privacy Policy</h1>
+  <p>How we collect, use, and protect your information</p>
+</div>
+
+<main>
+
+  <div class="updated">
+    📅 Last Updated: June 30, 2026
+  </div>
+
+  <div class="highlight-box">
+    <p>This Privacy Policy applies to the website <strong>crcgroup.propertysaraansh.com</strong> operated by <strong>Property Saraansh</strong>. By submitting your information on this website, you agree to the terms described below.</p>
+  </div>
+
+  <!-- 1. Information We Collect -->
+  <div class="section">
+    <h2><span class="section-num">1</span> Information We Collect</h2>
+    <p>When you fill out an enquiry form on this website, we collect the following personal information:</p>
+    <ul>
+      <li><strong>Name</strong> — to address you personally</li>
+      <li><strong>Phone Number</strong> — to contact you regarding your enquiry</li>
+      <li><strong>Email Address</strong> — to send relevant project information</li>
+      <li><strong>Property Interest / Configuration</strong> — to match you with the right options</li>
+      <li><strong>UTM Parameters</strong> (utm_source, utm_medium, utm_campaign) — to understand which ad or channel brought you to us</li>
+      <li><strong>Google Click ID (GCLID)</strong> — for Google Ads conversion tracking</li>
+      <li><strong>Page URL & Timestamp</strong> — to record when and where the enquiry was made</li>
+    </ul>
+    <p>We may also automatically collect device information, browser type, and IP address via cookies and analytics tools.</p>
+  </div>
+
+  <!-- 2. How We Use Your Information -->
+  <div class="section">
+    <h2><span class="section-num">2</span> How We Use Your Information</h2>
+    <p>Your information is used solely for the following purposes:</p>
+    <ul>
+      <li>Contacting you about CRC The Peridona project enquiries via phone, WhatsApp, or email</li>
+      <li>Sharing brochures, floor plans, pricing details, and payment schedules</li>
+      <li>Scheduling site visits or consultations with our property advisors</li>
+      <li>Sending relevant project updates and investment opportunities</li>
+      <li>Measuring ad performance via Google Ads and Meta Ads conversion tracking</li>
+      <li>Improving our website experience through analytics data</li>
+    </ul>
+  </div>
+
+  <!-- 3. Data Storage -->
+  <div class="section">
+    <h2><span class="section-num">3</span> How We Store Your Data</h2>
+    <p>Lead data submitted through our enquiry forms is stored securely in <strong>Google Sheets</strong>, accessible only to authorised members of the Property Saraansh team. We use Google Apps Script for data processing, which operates under Google's security infrastructure.</p>
+    <p>We retain your data for up to <strong>24 months</strong> from the date of submission, after which it is permanently deleted unless you have entered into an active consultation with us.</p>
+  </div>
+
+  <!-- 4. Cookies & Tracking -->
+  <div class="section">
+    <h2><span class="section-num">4</span> Cookies & Tracking Technologies</h2>
+    <p>This website uses the following tracking technologies:</p>
+    <ul>
+      <li><strong>Google Tag Manager (GTM)</strong> — to manage tracking scripts and analytics tags</li>
+      <li><strong>Google Analytics / Google Ads</strong> — to measure traffic sources, page views, and conversions</li>
+      <li><strong>Meta Pixel (Facebook & Instagram)</strong> — to track ad performance and enable remarketing</li>
+      <li><strong>Session Storage</strong> — to temporarily store UTM parameters during your visit (not persistent)</li>
+    </ul>
+    <p>You may disable cookies through your browser settings. Note that disabling cookies may affect some website functionality.</p>
+  </div>
+
+  <!-- 5. Third-Party Sharing -->
+  <div class="section">
+    <h2><span class="section-num">5</span> Sharing of Your Information</h2>
+    <p>We <strong>do not sell</strong> your personal information to any third party.</p>
+    <p>Your data may be shared with:</p>
+    <ul>
+      <li><strong>CRC Group</strong> (the project developer) — only if you explicitly request a developer callback</li>
+      <li><strong>Google</strong> — for analytics, ads measurement, and Sheets storage (under Google's privacy policy)</li>
+      <li><strong>Meta / Facebook</strong> — for conversion tracking purposes only (under Meta's data policy)</li>
+    </ul>
+    <p>We never share your name, phone number, or email with other real estate agents, brokers, or marketing databases.</p>
+  </div>
+
+  <!-- 6. Your Rights -->
+  <div class="section">
+    <h2><span class="section-num">6</span> Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li><strong>Access</strong> — request a copy of the personal data we hold about you</li>
+      <li><strong>Correction</strong> — request that we correct any inaccurate information</li>
+      <li><strong>Deletion</strong> — request that we permanently delete your data from our records</li>
+      <li><strong>Opt-out</strong> — unsubscribe from further communications at any time</li>
+    </ul>
+    <p>To exercise any of these rights, please email us at the address below.</p>
+  </div>
+
+  <!-- 7. Communications -->
+  <div class="section">
+    <h2><span class="section-num">7</span> Marketing Communications</h2>
+    <p>By submitting your contact details on this website, you consent to receive:</p>
+    <ul>
+      <li>Phone calls from our property advisors regarding your enquiry</li>
+      <li>WhatsApp messages with project brochures, pricing, and updates</li>
+      <li>Email communications with investment insights and property news</li>
+    </ul>
+    <p>You can opt out of any of these at any time by replying STOP to a WhatsApp/SMS message, using the unsubscribe link in any email, or contacting us directly.</p>
+  </div>
+
+  <!-- 8. Policy Updates -->
+  <div class="section">
+    <h2><span class="section-num">8</span> Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated date. We encourage you to review this policy periodically.</p>
+    <p>Continued use of this website after any changes constitutes your acceptance of the updated policy.</p>
+  </div>
+
+  <!-- Contact card -->
+  <div class="contact-card">
+    <div>
+      <h3>Questions About Your Privacy?</h3>
+      <p>Contact us and we'll respond within 48 hours</p>
+      <p style="margin-top:6px; color:rgba(255,255,255,0.6); font-size:12px;">Property Saraansh · crcgroup.propertysaraansh.com</p>
+    </div>
+    <a href="mailto:karmaglobalretail@gmail.com" class="email-btn">
+      ✉ Email Us
+    </a>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 Property Saraansh. All rights reserved. &nbsp;|&nbsp;
+    <a href="/">CRC The Peridona</a> &nbsp;|&nbsp;
+    <a href="/privacy.html">Privacy Policy</a>
+  </p>
+</footer>
+
+</body>
+</html>
