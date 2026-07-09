@@ -1490,17 +1490,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     revealEls.forEach(function(el) { observer.observe(el); });
   })();
 
-  /* SMOOTH SCROLL on anchor clicks — keeps smooth UX without blocking INP */
-  document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
-    anchor.addEventListener('click', function(e) {
-      var target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    }, { passive: false });
-  });
-
   /* FORM SUBMIT */
   var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwYhZ69gy6J4wJUM9lBvVxtc-87jos0xr6Sfbx2Q4puvYRThv2ZMoSg0dXbUeRDwu_WQg/exec';
   function handleSubmit(e, formId) {
