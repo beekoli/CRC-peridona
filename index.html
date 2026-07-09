@@ -103,6 +103,14 @@ p, .section-subtitle, .about-text, .faq-a, .overview-right p {
   }
 }
 
+
+.mobile-only { display: none; }
+.invest-highlight { color: #6EC6FF; }
+@media (max-width: 600px) {
+  .mobile-only { display: block; }
+  .invest-highlight { color: #D4AF37; font-size: 0.9em; font-style: italic; display: block; margin-top: 8px; }
+}
+
 </style>
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -394,7 +402,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="container">
     <div class="scroll-reveal" style="text-align:center">
       <span class="section-tag">Why CRC The Peridona?</span>
-      <h2 class="section-title">India's Rarest Residential Asset — <span>6 Reasons to Invest Now</span></h2>
+      <h2 class="section-title"><strong>India's Rarest Residential Asset</strong> <span class="desktop-only">—</span><br class="mobile-only"><span class="invest-highlight">6 Reasons to Invest Now</span></h2>
       <div class="gold-line" style="margin:16px auto 0"></div>
     </div>
     <div class="highlights-grid">
