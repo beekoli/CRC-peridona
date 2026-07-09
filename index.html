@@ -203,6 +203,43 @@ p, .section-subtitle, .about-text, .faq-a, .overview-right p {
   }
 }
 
+
+@media (max-width: 600px) {
+  /* Center text elements gracefully */
+  p, .section-subtitle, .about-text, .overview-right p, .fp-sub, .am-sub {
+    text-align: center !important;
+    text-justify: auto !important; /* override strict justify */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Center headers */
+  .section-title, .fp-title, .am-title, h2, h3 {
+    text-align: center !important;
+  }
+
+  /* Make buttons attractive and centralized */
+  .btn-primary, .btn-outline, .fp-enquire-btn, .overview-btn-wrap .btn-primary {
+    width: 100% !important;
+    max-width: 320px;
+    margin: 10px auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding: 14px 20px !important;
+    border-radius: 30px !important; /* more rounded, attractive */
+  }
+  
+  /* Wrappers for buttons to be flexible and centered */
+  .overview-btn-wrap, .am-btn-wrap, .hero-ctas, [style*="text-align:center"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
 </style>
   <!-- Structured Data -->
   <script type="application/ld+json">
