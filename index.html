@@ -111,6 +111,80 @@ p, .section-subtitle, .about-text, .faq-a, .overview-right p {
   .invest-highlight { color: #D4AF37; font-size: 0.9em; font-style: italic; display: block; margin-top: 8px; }
 }
 
+
+/* Desktop & General styling for CLP Table */
+.clp-table {
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+.clp-table thead tr {
+  background: linear-gradient(135deg, #050810, #060D1F);
+}
+.clp-table thead th {
+  color: #D4AF37;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  padding: 20px;
+}
+.clp-table tbody tr {
+  transition: all 0.3s ease;
+}
+.clp-table tbody tr:hover {
+  background: #fdfbf7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.clp-table td {
+  padding: 16px 20px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Mobile styling for CLP Table (Top/Bottom sections) */
+@media (max-width: 700px) {
+  .clp-table-wrapper {
+    margin: 0 -15px; /* slight negative margin to give cards space */
+  }
+  .clp-table {
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }
+  .clp-table tbody tr {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  }
+  .clp-table td {
+    display: block;
+    width: 100%;
+    text-align: center !important;
+    padding: 0;
+    justify-content: center !important;
+  }
+  .clp-table td::before {
+    display: none !important; /* Hide the generic data-label */
+  }
+  .clp-table td:first-child {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.4;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px dashed #ddd;
+  }
+  .clp-table td:last-child {
+    font-size: 20px;
+    font-weight: 700 !important;
+    color: #D4AF37 !important;
+  }
+}
+
 </style>
   <!-- Structured Data -->
   <script type="application/ld+json">
